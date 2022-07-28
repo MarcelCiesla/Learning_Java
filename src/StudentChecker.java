@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StudentChecker {
     public static void main(String[] args) {
 
@@ -33,6 +35,11 @@ public class StudentChecker {
             students[i].podanNrInedksu();
             students[i].zalogujSie();
         }
+
+        /*String imie = "Kasia";               //klasy
+        imie.strip();
+        Scanner scanner = new Scanner(System.in);*/
+
 
     }
 }
