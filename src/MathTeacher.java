@@ -8,6 +8,12 @@ public class MathTeacher extends Person{
         this.school = school;
     }
 
+    // metoda super daje nam mozliwosc do odwolywani sie do metod ktore znajduja sie wewnatrz klasy pierwotnej
+    public void walk() {
+        super.walk();
+        System.out.println("I walk very fast");
+    }
+
     public void teachmath() {
         System.out.println("I am teaching math");
     }
